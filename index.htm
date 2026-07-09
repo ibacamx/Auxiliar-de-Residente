@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">#VACANTE BRASA#</p>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Auxiliar de Obra — Grupo IMASA&lt;/title&gt;</p>
+<p class="p1">&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"&gt;&lt;/script&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>:root{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--navy:#1e4b78;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--navy-dark:#123252;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--yellow:#f0e13c;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--paper:#f6f4ee;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--line:#c9d3dc;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--ink:#16232e;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--ok:#2f7a4f;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--no:#b3402c;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>*{box-sizing:border-box;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:var(--paper);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-image:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>linear-gradient(var(--line) 1px, transparent 1px),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>linear-gradient(90deg, var(--line) 1px, transparent 1px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background-size:28px 28px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:var(--ink);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family:'Courier New', ui-monospace, monospace;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.wrap{max-width:760px;margin:0 auto;padding:24px 18px 60px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:22px 26px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom:3px solid var(--yellow);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:0;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header h1{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family:Georgia, 'Times New Roman', serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:26px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height:1.15;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#fff;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header .header-sub{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin:5px 0 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>letter-spacing:.08em;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text-transform:uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:#c3d4e3;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:#fff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:var(--ink);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border:1px solid var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-top:none;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:18px 26px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:13px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>line-height:1.6;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc .jd-title{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:11px;letter-spacing:.12em;text-transform:uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:var(--navy);font-weight:bold;margin:0 0 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding-bottom:6px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>border-bottom:1px solid var(--line);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc p{margin:0 0 8px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc ul{margin:0 0 12px;padding-left:0;list-style:none;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc ul:last-child{margin-bottom:0;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc li{margin-bottom:6px;padding-left:14px;position:relative;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc li::before{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>content:"—";position:absolute;left:0;color:var(--navy);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.job-desc strong{color:var(--navy);}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>form{background:#fff;border:1px solid var(--line);margin-top:18px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>fieldset{border:0;padding:22px 26px;border-bottom:1px dashed var(--line);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>fieldset:last-of-type{border-bottom:0;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>legend{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-size:11px;letter-spacing:.12em;text-transform:uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>color:var(--navy);font-weight:bold;padding:0 6px 0 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom:10px;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>fieldset &gt; legend + .field{margin-top:6px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.field{margin:14px 0;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>label{display:block;font-size:13px;margin-bottom:5px;color:var(--navy-dark);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.req::after{content:" *";color:var(--no);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input[type=text], input[type=tel], input[type=email], input[type=number], select, textarea{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width:100%;padding:9px 10px;border:1px solid #9fb0bd;background:#fdfdfb;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-family:inherit;font-size:14px;color:var(--ink);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>textarea{min-height:64px;resize:vertical;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.radio-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:4px;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.radio-row label{display:flex;align-items:center;gap:6px;font-size:13px;margin:0;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hint{font-size:11px;color:#5c6b78;margin-top:4px;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>.submit-row{padding:22px 26px;background:var(--paper);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>button{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:var(--yellow);color:var(--navy-dark);border:2px solid var(--navy-dark);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>font-weight:bold;font-size:14px;letter-spacing:.04em;text-transform:uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>padding:12px 22px;cursor:pointer;font-family:inherit;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>button:hover{background:#e6d82e;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>button:disabled{opacity:.5;cursor:wait;}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result{margin-top:18px;padding:18px 22px;border:2px solid var(--navy);display:none;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result.ok{border-color:var(--ok);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result.no{border-color:var(--no);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result h3{margin:0 0 6px;font-family:Georgia,serif;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result.ok h3{color:var(--ok);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#result.no h3{color:var(--no);}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>#qr-section{margin-top:34px;padding-top:24px;border-top:2px solid var(--navy);text-align:center;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#qr-section p{font-size:12px;color:#5c6b78;max-width:46ch;margin:8px auto 0;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#qrcode{display:inline-block;margin-top:10px;padding:10px;background:#fff;border:1px solid var(--line);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.no-print{}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media print{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body{background:#fff;}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.no-print{display:none;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;div class="wrap"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Auxiliar Administrativo de Obra&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="header-sub"&gt;Grupo Imasa&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="job-desc"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="jd-title"&gt;Descripción:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Ejecución de estimaciones, análisis de precios unitarios y control de insumos en campo.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;Posición temporal 3-4 meses.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;Prestaciones de acuerdo a la ley.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;strong&gt;Disponibilidad de horario:&lt;/strong&gt; Lunes a viernes de 8:00 am – 1:00 pm / 3:00 pm – 6:00 pm; Sábado 9:00 am – 2:00 pm&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;strong&gt;Estudios:&lt;/strong&gt; Ing. Civil / Arquitectura (pasante o trunca aceptado)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;li&gt;&lt;strong&gt;Experiencia:&lt;/strong&gt; 1 año mínimo&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form id="jobForm"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;legend&gt;01 — Datos de contacto&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req" for="nombre"&gt;Nombre completo&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="text" id="nombre" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req" for="telefono"&gt;Teléfono (WhatsApp)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="tel" id="telefono" required placeholder="656 123 4567"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="correo"&gt;Correo electrónico&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="email" id="correo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req" for="edad"&gt;Edad&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="edad" required min="16" max="80"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hint"&gt;Rango preferente: 23 a 45 años.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;legend&gt;02 — Formación y experiencia&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req"&gt;Nivel de estudios&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="radio-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="estudios" value="Licenciatura Ing. Civil" required&gt; Licenciatura Ing. Civil&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="estudios" value="Licenciatura Arquitectura" required&gt; Licenciatura Arquitectura&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="estudios" value="Pasante o carrera trunca (afín)" required&gt; Pasante / carrera trunca (afín)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="estudios" value="Otro / no relacionado" required&gt; Otro / no relacionado&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req" for="institucion"&gt;Institución donde estudió&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="text" id="institucion" required placeholder="Ej. UACJ, ITCJ, Tec de Monterrey..."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req" for="experiencia"&gt;Años de experiencia en puesto similar (obra, estimaciones, APU)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="number" id="experiencia" required min="0" step="0.5"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="experienciaResumen"&gt;Cuéntanos brevemente tu experiencia relevante&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;textarea id="experienciaResumen" placeholder="Ej. 2 años como auxiliar de obra en constructora X, elaborando estimaciones y APU..."&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;legend&gt;03 — Herramientas y conocimientos&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req"&gt;¿Manejas AutoCAD?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="radio-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="autocad" value="Sí, con experiencia" required&gt; Sí, con experiencia&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="autocad" value="Básico" required&gt; Básico&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="autocad" value="No" required&gt; No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req"&gt;¿Manejas Office (Word, Excel, PowerPoint)?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="radio-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="office" value="Sí, con experiencia" required&gt; Sí, con experiencia&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="office" value="Básico" required&gt; Básico&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="office" value="No" required&gt; No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req"&gt;¿Conoces procesos constructivos e interpretación de planos?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="radio-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="procesos" value="Sí" required&gt; Sí&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="procesos" value="Algo" required&gt; Algo&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="procesos" value="No" required&gt; No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="otrosProgramas"&gt;Otros programas que manejas&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="text" id="otrosProgramas" placeholder="Ej. Opus, Neodata, SAP, MS Project..."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;legend&gt;04 — Disponibilidad&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label class="req"&gt;¿Puedes cumplir el horario: L-V 8-13 y 15-18 hrs, sábados 9-14 hrs?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="radio-row"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="horario" value="Sí" required&gt; Sí&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="horario" value="Parcialmente" required&gt; Parcialmente&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;label&gt;&lt;input type="radio" name="horario" value="No" required&gt; No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="field"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="notas"&gt;Notas adicionales&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;textarea id="notas"&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="submit-row no-print"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button type="submit" id="submitBtn"&gt;Enviar aplicación&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="result"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="qr-section" class="no-print"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="eyebrow" style="color:var(--navy)"&gt;Comparte esta convocatoria&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="qrcode"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Escanea o comparte el enlace de esta página para que los candidatos apliquen directamente desde su celular.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// =====================================================================</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// PASO OBLIGATORIO: pega aquí la URL de tu Google Apps Script (/exec)</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Ver instrucciones completas en Code.gs</p>
+<p class="p1"><span class="Apple-converted-space">  </span>// =====================================================================</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const SCRIPT_URL = "PEGA_AQUI_TU_URL_DE_APPS_SCRIPT";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>// Genera el QR de esta misma página automáticamente</p>
+<p class="p1"><span class="Apple-converted-space">  </span>new QRCode(document.getElementById("qrcode"), {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>text: window.location.href,</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width: 160,</p>
+<p class="p1"><span class="Apple-converted-space">    </span>height: 160,</p>
+<p class="p1"><span class="Apple-converted-space">    </span>colorDark: "#1e4b78",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>colorLight: "#ffffff"</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>function calificar(data) {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let puntos = 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let motivos = [];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Edad</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.edad &gt;= 23 &amp;&amp; data.edad &lt;= 45) puntos += 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else motivos.push("edad fuera de rango preferente (23-45)");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Estudios</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.estudios.includes("Licenciatura")) puntos += 2;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else if (data.estudios.includes("Pasante")) puntos += 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else motivos.push("nivel de estudios no relacionado");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Experiencia (mínimo 1 año)</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.experiencia &gt;= 1) puntos += 2;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else motivos.push("menos de 1 año de experiencia");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// AutoCAD</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.autocad === "Sí, con experiencia") puntos += 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else if (data.autocad === "No") motivos.push("sin manejo de AutoCAD");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Office</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.office === "Sí, con experiencia") puntos += 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else if (data.office === "No") motivos.push("sin manejo de Office");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Procesos constructivos</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.procesos === "Sí") puntos += 1;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>else if (data.procesos === "No") motivos.push("sin conocimiento de procesos constructivos");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Horario — eliminatorio</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (data.horario === "No") {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>return { calificacion: "NO CUMPLE (horario)", puntos, motivos: ["no puede cumplir el horario requerido"] };</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (puntos &gt;= 6) return { calificacion: "CUMPLE REQUISITOS", puntos, motivos };</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if (puntos &gt;= 4) return { calificacion: "REVISAR (parcial)", puntos, motivos };</p>
+<p class="p1"><span class="Apple-converted-space">    </span>return { calificacion: "NO CUMPLE", puntos, motivos };</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("jobForm").addEventListener("submit", async function(e){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const btn = document.getElementById("submitBtn");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btn.disabled = true;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btn.textContent = "Enviando...";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const data = {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>nombre: document.getElementById("nombre").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>telefono: document.getElementById("telefono").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>correo: document.getElementById("correo").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>edad: parseFloat(document.getElementById("edad").value),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>estudios: document.querySelector('input[name="estudios"]:checked').value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>institucion: document.getElementById("institucion").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>experiencia: parseFloat(document.getElementById("experiencia").value),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>experienciaResumen: document.getElementById("experienciaResumen").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>autocad: document.querySelector('input[name="autocad"]:checked').value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>office: document.querySelector('input[name="office"]:checked').value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>procesos: document.querySelector('input[name="procesos"]:checked').value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>otrosProgramas: document.getElementById("otrosProgramas").value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>horario: document.querySelector('input[name="horario"]:checked').value,</p>
+<p class="p1"><span class="Apple-converted-space">      </span>notas: document.getElementById("notas").value</p>
+<p class="p1"><span class="Apple-converted-space">    </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const eval_ = calificar(data);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>data.calificacion = eval_.calificacion + " (" + eval_.puntos + " pts)";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>if (SCRIPT_URL &amp;&amp; SCRIPT_URL.indexOf("https://script.google.com/macros/s/AKfycbyZ5SwYU1rQYWRmKpTpp6Vr3VgF4nl2DPFRFuJN1VbQDBbp0HHQQQK5voeRTAHTl-bXGg/exec") === -1) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>await fetch(SCRIPT_URL, {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>method: "POST",</p>
+<p class="p1"><span class="Apple-converted-space">          </span>body: JSON.stringify(data)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>} catch(err) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>console.error(err);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const resultDiv = document.getElementById("result");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>resultDiv.style.display = "block";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const passed = eval_.calificacion.includes("CUMPLE") &amp;&amp; !eval_.calificacion.includes("NO");</p>
+<p class="p1"><span class="Apple-converted-space">    </span>resultDiv.className = passed ? "ok" : "no";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>resultDiv.innerHTML = passed</p>
+<p class="p1"><span class="Apple-converted-space">      </span>? "&lt;h3&gt;¡Aplicación enviada!&lt;/h3&gt;&lt;p&gt;Gracias, " + data.nombre + ". Tu perfil cumple con los requisitos base del puesto. El equipo de IMASA se pondrá en contacto contigo por WhatsApp al número que proporcionaste.&lt;/p&gt;"</p>
+<p class="p1"><span class="Apple-converted-space">      </span>: "&lt;h3&gt;Aplicación enviada&lt;/h3&gt;&lt;p&gt;Gracias por tu interés, " + data.nombre + ". Con base en tus respuestas, tu perfil no cumple actualmente con todos los requisitos mínimos del puesto (" + eval_.motivos.join(", ") + "). Tus datos quedaron registrados por si surge una posición más adecuada.&lt;/p&gt;";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById("jobForm").style.display = "none";</p>
+<p class="p1"><span class="Apple-converted-space">    </span>resultDiv.scrollIntoView({behavior:"smooth"});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
