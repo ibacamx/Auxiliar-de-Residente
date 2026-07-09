@@ -164,6 +164,11 @@
         <input type="number" id="edad" required min="16" max="80">
         <div class="hint">Rango preferente: 23 a 45 años.</div>
       </div>
+      <div class="field">
+        <label class="req" for="cv">Sube tu CV / currículum</label>
+        <input type="file" id="cv" required accept=".pdf,.doc,.docx">
+        <div class="hint">Formatos aceptados: PDF, Word (.doc, .docx). Máximo 10 MB.</div>
+      </div>
     </fieldset>
 
     <fieldset>
@@ -315,11 +320,22 @@
     btn.disabled = true;
     btn.textContent = "Enviando...";
 
+    const cvFile = document.getElementById("cv").files[0];
+    const cvBase64 = await new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result.split(",")[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(cvFile);
+    });
+
     const data = {
       nombre: document.getElementById("nombre").value,
       telefono: document.getElementById("telefono").value,
       correo: document.getElementById("correo").value,
       edad: parseFloat(document.getElementById("edad").value),
+      cvNombreArchivo: cvFile.name,
+      cvMimeType: cvFile.type || "application/octet-stream",
+      cvBase64: cvBase64,
       estudios: document.querySelector('input[name="estudios"]:checked').value,
       institucion: document.getElementById("institucion").value,
       experiencia: parseFloat(document.getElementById("experiencia").value),
